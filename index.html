@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify footer</title>
+    <style>
+         .container {
+             display: grid;
+             grid-template-columns: auto auto auto auto auto;
+             background-color: black;
+             color: aliceblue;
+             font-size: 20px;
+             width: 100%;
+         }
+         .logo {
+             width: 100px;
+             height:33px;
+         }
+          ul {
+              list-style: none;
+          }
+          .first {
+              color: rgb(182, 177, 177);
+              font-size: 16px;
+          }
+          ul li a {
+              color: white;
+              font-size: 13px;
+              text-decoration: none;    
+          }
+          ul li a:hover {
+               color: rgb(2, 251, 2);
+          }
+        .item5 img {
+            width: 40px;
+        }
+        .item5 ul li {
+            display: inline-block;
+            margin: 2px;
+        }
+        
+        
+        @media only screen and (max-width: 700px) {
+            .item5 img {
+            width: 30px;
+
+        }
+        .logo {
+             width: 40px;
+             height:20px;
+         }
+
+        .first {
+            font-size: 10px;
+        }       
+        
+        }
+  
+
+
+         ul li a {
+              color: white;
+              font-size: 10px;
+              text-decoration: none;    
+          }
+        
+     
+          
+
+    </style>
+</head>
+<body>
+      <div class="container">
+            <div class="item1">
+               <ul>
+                    <li> <img src="spotify.png" class="logo"></li>
+
+               </ul>
+            
+            </div>
+            <div class="item2">
+                <ul>
+                    <li class="first"> Company</li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">About</a></li>
+                     <li><a href="#">For the record</a></li>
+               </ul>
+
+            </div>
+            <div class="item3"> <ul>
+                <li class="first"> Communities</li>
+                <li><a href="#">For Artists</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Advertising </a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Vendors</a></li>
+           </ul></div>
+            <div class="item4"> <ul>
+                <li class="first"> Useful Links</li> 
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Web Player</a></li>
+                <li><a href="#">Free Mobile App</a></li>
+                <li><a href="#">Car Thing</a></li>
+
+
+           </ul></div>
+            <div class="item5"> <ul>
+                <li> <img src="inst.png"</li>
+                <li> <img src="twitter.png"</li>
+                <li> <img src="fb.png"</li>
+
+           </ul></div>
+
+
+
+
+      </div>
+        
+   
+
+</body>
+</html>
